@@ -1,0 +1,838 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito';
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-image: url(images/hero-img.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #666;
+    letter-spacing: 5px;
+}
+
+.home {
+    color: white !important;
+}
+
+.menu a {
+    font-family: 'Nunito';
+    text-decoration: none;
+    font-size: 16px;
+    color: #666;
+    padding: 10px 50px;
+}
+
+#featured {
+    padding: 100px 50px;
+}
+
+.featured-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.featured-left-col {
+    flex-basis: 50%;
+}
+
+.header-description {
+    padding: 20px 10%;
+    max-width: 50%;
+}
+
+.header-description-heading {
+    font-family: 'Nunito';
+    color: white !important;
+    font-size: 40px !important;
+    margin-bottom: 10px !important;
+}
+
+.bar-visibility {
+    visibility: hidden;
+    padding-left: 10px;
+}
+
+.header-description span {
+    font-family: 'Nunito';
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-description h3 {
+    font-family: 'Nunito';
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.header-description p {
+    font-family: 'Nunito';
+    color: #666;
+    font-size: 16px;
+}
+
+.c-btn {
+    background-color: #FFCC00;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border-radius: 40px 40px;
+    border: none;
+    margin-top: 5%;
+}
+
+
+/* Services Part */
+
+#services {
+    width: 100%;
+    position: relative;
+    height: 85vh;
+    min-height: 830px;
+    background-color: whitesmoke;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fa-video-camera {
+    font-size: 3.2em;
+}
+
+.services-row {
+    height: 20%;
+    width: 70%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-left-col {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 30%;
+    flex-basis: 50%;
+    padding: 15px;
+    margin: 10px;
+    min-width: 320px;
+    /* box-shadow: 2px 1px 1px grey; */
+}
+
+.services-right-col {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 30%;
+    flex-basis: 50%;
+    padding: 10px;
+    margin: 10px;
+    min-width: 320px;
+    /* box-shadow: 2px 1px 1px grey; */
+}
+
+.card-left-flex {
+    flex-basis: 15%;
+    padding: 10px;
+}
+
+.card-right-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 85%;
+    padding: 10px;
+}
+
+.card-right-flex h1 {
+    font-family: 'Nunito';
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+
+.circle {
+    background-color: #FFCC00;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-align-center {
+    align-items: center;
+    /* padding: 2vh; */
+    padding-left: 12px;
+}
+
+.padding-top {
+    padding-top: 5%;
+    ;
+}
+
+
+/* About Me Part */
+
+#about_me {
+    width: 100%;
+    height: 80vh;
+    min-height: 1000px;
+}
+
+.about-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/* .about-container h1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+} */
+
+.about-row {
+    height: 20%;
+    width: 70%;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 14vw;
+}
+
+.about-row-2 {
+    height: 75%;
+    width: 70%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 14vw;
+    min-width: 320px;
+}
+
+.about-col {
+    height: 70vh;
+    flex-basis: 45%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+    min-height: 600px;
+}
+
+.about-col-2 {
+    height: 35vh;
+    flex-basis: 45%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5vh;
+}
+
+.image {
+    height: 75%;
+    width: 100%;
+    background-image: url(images/hero-img.jpg.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.middle {
+    height: 80px;
+    margin-top: 10px !important;
+}
+
+.rating {
+    width: 60px;
+    height: 40px;
+    padding-left: 60%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-box {
+    height: 20px;
+    width: 30px;
+    background-color: #FFCC00;
+    padding-right: 15px;
+}
+
+.rating-box h5 {
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 0;
+    border-bottom: 10px solid #FFCC00;
+    text-align: center;
+}
+
+.bar-container {
+    height: 5px !important;
+    background-color: #d3d3d3;
+    text-align: center;
+    color: #FFCC00;
+}
+
+.bar-5 {
+    width: 60%;
+    height: 5px;
+    background-color: #FFCC00;
+}
+
+
+/* Blog Part*/
+
+#blog {
+    padding: 60px 50px;
+    background-color: whitesmoke;
+}
+
+#blog h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 4px 8px;
+    padding-bottom: 50px;
+}
+
+#blog-date {
+    font-family: 'Nunito';
+    color: #666;
+}
+
+.blog-btn {
+    color: #FFCC00;
+    background-color: white;
+    border: none;
+    padding-top: 1%;
+    padding-left: 2%;
+    margin-bottom: 3%;
+}
+
+.blog-row {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 23%;
+    margin-left: 15%;
+    min-width: 320px;
+}
+
+.blog-box {
+    background-color: white;
+    height: 50vh;
+    flex-basis: 25%;
+    /* box-shadow: 2px 3px 5px grey; */
+    min-height: 420px;
+}
+
+.blog-box img {
+    width: 100%;
+}
+
+.blog-box p {
+    margin: 4px 8px;
+}
+
+.blog-box h4 {
+    font-size: 100%;
+    margin: 4px 4px;
+}
+
+
+/* Client Sayings part */
+
+#client-saying {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    margin-top: 10vh;
+    min-height: 600px;
+}
+
+.c-saying-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #FFCC00;
+    min-height: 600px;
+}
+
+.c-saying-column {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.c-saying-heading {
+    font-size: 28px;
+    color: white;
+    font-family: 'Nunito';
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.c-saying-quote p {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Nunito';
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5vh;
+    width: 40vw;
+}
+
+#simple-line {
+    font-size: 1px;
+    color: #666;
+    font-family: 'Nunito';
+    align-items: center;
+    text-align: center;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+
+.c-saying-author {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.c-saying-author p {
+    font-size: 20px;
+    color: #666;
+    font-family: 'Nunito';
+    align-items: center;
+    text-align: center;
+}
+
+.c-saying-dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.quote-icon {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+
+/* Footer start */
+
+#footer {
+    padding: 50px 30%;
+}
+
+.subscribe {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subscribe input {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.05);
+    outline: none;
+}
+
+.subscribe button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #7f8fa6;
+}
+
+.footer-row>div {
+    min-height: 150px;
+}
+
+.footer-row {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-copyright p {
+    color: grey;
+    margin: 10px 0px;
+}
+
+.footer-row p {
+    color: grey;
+    margin: 10px 0px;
+}
+
+.footer-heading {
+    font-size: 23px;
+    font-family: 'Nunito';
+    padding-bottom: 5px;
+    color: rgb(0, 0, 0) !important;
+}
+
+.icons {
+    margin-top: 5%;
+}
+
+.icons i {
+    padding: 2px;
+    color: gray;
+}
+
+
+/* Say Hello Form */
+
+.fullname {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90vw;
+}
+
+.first-name {
+    margin-top: 30px;
+    width: 42.5vw;
+}
+
+.email-address {
+    margin-top: 30px;
+    flex-basis: 100%;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 1.4rem;
+    color: #ccc;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: rgb(245, 245, 245, 0.5);
+}
+
+.forDesc {
+    margin-top: 30px;
+    background-color: transparent;
+    flex-basis: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 1.4rem;
+    color: #ccc;
+    height: 30vh;
+}
+
+.d-btn {
+    background-color: rgb(0, 0, 0, 0.85);
+    font-size: 16px;
+    height: 50px;
+    width: 175px;
+    color: white;
+    border-radius: 40px 40px;
+    border: none;
+    margin-top: 3%;
+    padding-right: 20px;
+    text-align: center;
+}
+
+@media (max-height: 500px) {
+    #services {
+        height: 215vh;
+    }
+    #about_me {
+        min-height: 900px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+    .bar-visibility {
+        visibility: visible;
+    }
+    .logo {
+        color: #fff;
+    }
+    .header-description {
+        padding: 20px 10%;
+        max-width: 100%;
+    }
+    #services {
+        height: 115vh;
+    }
+    .services-row {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .services-left-col {
+        flex-basis: 100%;
+        width: 90%;
+        height: 25%;
+    }
+    .services-right-col {
+        flex-basis: 100%;
+        width: 90%;
+        height: 25%;
+    }
+    /* About Me */
+    #about_me {
+        width: 100%;
+        height: 130vh;
+        padding-right: 0%;
+    }
+    .about-row {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start !important;
+        padding-left: 0vw;
+        padding-right: 50%;
+    }
+    .about-row-2 {
+        height: 115vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0vw;
+        padding-left: 2vh;
+    }
+    .about-col {
+        width: 100%;
+        flex-basis: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 0vw;
+        padding-left: 11vw;
+        margin-right: 9vw;
+    }
+    .about-col-2 {
+        width: 100%;
+        flex-basis: 100%;
+        justify-content: flex-start;
+        margin-left: 0vw;
+        padding-left: 7vw;
+        padding-right: 7vw;
+        padding-top: 2vh;
+    }
+    .about-container {
+        flex-basis: 100%;
+        justify-content: flex-start;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 0%;
+    }
+    .image {
+        height: 70vh;
+    }
+    /* Blog part */
+    .blog-row {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .blog-box {
+        height: 65vh !important;
+        flex-basis: 100%;
+        margin: 10px 0px;
+    }
+    /* Footer Part */
+    .footer-row>div {
+        flex-basis: 100%;
+        flex-direction: column;
+        padding: 10px;
+    }
+    /* Client Saying */
+    .c-saying-quote p {
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+    .bar-visibility {
+        visibility: visible;
+    }
+    .logo {
+        color: #fff;
+    }
+    .header-description {
+        padding: 20px 10%;
+        max-width: 100%;
+    }
+    #services {
+        height: 100vh;
+        background-color: whitesmoke;
+    }
+    .services-row {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .services-left-col {
+        flex-basis: 100%;
+        width: 90%;
+        height: 35vh;
+    }
+    .services-right-col {
+        flex-basis: 100%;
+        width: 90%;
+        height: 35vh;
+    }
+    /* About Me */
+    #about_me {
+        width: 100%;
+        height: 130vh;
+        padding-right: 0%;
+    }
+    .about-row {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start !important;
+        padding-left: 0vw;
+        padding-right: 50%;
+    }
+    .about-row-2 {
+        height: 115vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0vw;
+        padding-left: 2vh;
+    }
+    .about-col {
+        width: 100%;
+        flex-basis: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 0vw;
+        padding-left: 11vw;
+        margin-right: 9vw;
+    }
+    .about-col-2 {
+        width: 100%;
+        flex-basis: 100%;
+        justify-content: flex-start;
+        margin-left: 0vw;
+        padding-left: 7vw;
+        padding-right: 7vw;
+        padding-top: 2vh;
+    }
+    .about-container {
+        flex-basis: 100%;
+        justify-content: flex-start;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 0%;
+    }
+    .image {
+        height: 70vh;
+    }
+    /* Blog part */
+    .blog-row {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .blog-box {
+        height: 90vh;
+        flex-basis: 100%;
+        margin: 10px 0px;
+    }
+    /* Footer Part */
+    .footer-row>div {
+        flex-basis: 100%;
+        flex-direction: column;
+        padding: 10px;
+    }
+    /* Client Saying */
+    .c-saying-quote p {
+        width: 90vw;
+    }
+}
