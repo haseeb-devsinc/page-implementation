@@ -7,7 +7,7 @@
 
 header {
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     position: relative;
     background-image: url(images/hero-img.jpg.webp);
     background-position: center;
@@ -112,7 +112,7 @@ nav {
 #services {
     width: 100%;
     position: relative;
-    height: 85vh;
+    /* height: 85vh; */
     min-height: 830px;
     background-color: whitesmoke;
 }
@@ -213,7 +213,7 @@ nav {
 
 #about_me {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     min-height: 1000px;
 }
 
@@ -382,7 +382,7 @@ nav {
 
 .blog-box {
     background-color: white;
-    height: 50vh;
+    height: 50%;
     flex-basis: 25%;
     /* box-shadow: 2px 3px 5px grey; */
     min-height: 420px;
@@ -416,7 +416,7 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     background-color: #FFCC00;
     min-height: 600px;
 }
@@ -425,6 +425,7 @@ nav {
     flex-direction: column;
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
 }
 
 .c-saying-heading {
@@ -562,6 +563,14 @@ nav {
 
 /* Say Hello Form */
 
+#say-hello {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    margin-top: 10vh;
+    min-height: 600px;
+}
+
 .fullname {
     display: flex;
     justify-content: space-between;
@@ -640,9 +649,8 @@ input {
         padding: 20px 10%;
         max-width: 100%;
     }
-    #services {
-        height: 115vh;
-    }
+    /* #services {
+        height: 115vh; */
     .services-row {
         flex-direction: column;
         justify-content: flex-start;
@@ -661,7 +669,7 @@ input {
     /* About Me */
     #about_me {
         width: 100%;
-        height: 130vh;
+        /* height: 130vh; */
         padding-right: 0%;
     }
     .about-row {
@@ -705,9 +713,9 @@ input {
         padding-bottom: 5%;
         padding-left: 0%;
     }
-    .image {
+    /* .image {
         height: 70vh;
-    }
+    } */
     /* Blog part */
     .blog-row {
         width: 100%;
@@ -715,7 +723,7 @@ input {
         margin-right: 0px;
     }
     .blog-box {
-        height: 65vh !important;
+        height: 65% !important;
         flex-basis: 100%;
         margin: 10px 0px;
     }
@@ -746,7 +754,7 @@ input {
         max-width: 100%;
     }
     #services {
-        height: 100vh;
+        /* height: 100vh; */
         background-color: whitesmoke;
     }
     .services-row {
@@ -767,7 +775,7 @@ input {
     /* About Me */
     #about_me {
         width: 100%;
-        height: 130vh;
+        /* height: 130vh; */
         padding-right: 0%;
     }
     .about-row {
@@ -811,9 +819,11 @@ input {
         padding-bottom: 5%;
         padding-left: 0%;
     }
-    .image {
+    /* .image {
         height: 70vh;
-    }
+}
+
+*/
     /* Blog part */
     .blog-row {
         width: 100%;
@@ -821,7 +831,7 @@ input {
         margin-right: 0px;
     }
     .blog-box {
-        height: 90vh;
+        height: 90%;
         flex-basis: 100%;
         margin: 10px 0px;
     }
