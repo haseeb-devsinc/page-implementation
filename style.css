@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Nunito';
+    font-family: "Nunito", sans-serif;
     box-sizing: border-box;
     font-size: 16px;
 }
@@ -17,7 +17,6 @@ header {
 }
 .heading{
     font-size: 24px;
-    font-family: 'Nunito';
 }
 
 nav {
@@ -40,7 +39,6 @@ nav {
 }
 
 .menu a {
-    font-family: 'Nunito';
     text-decoration: none;
     font-size: 16px;
     color: #666;
@@ -68,7 +66,6 @@ nav {
 }
 
 .header-description-heading {
-    font-family: 'Nunito';
     color: white !important;
     font-size: 30px !important;
     margin-bottom: 10px !important;
@@ -80,7 +77,6 @@ nav {
 }
 
 .header-description span {
-    font-family: 'Nunito';
     color: #666;
     font-size: 20px;
     margin-bottom: 10px;
@@ -89,14 +85,12 @@ nav {
 }
 
 .header-description h3 {
-    font-family: 'Nunito';
     color: #666;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 .header-description p {
-    font-family: 'Nunito';
     color: #666;
     font-size: 16px;
 }
@@ -118,7 +112,7 @@ nav {
     width: 100%;
     /* position: relative; */
     /* height: 75vh; */
-    min-height: 730px;
+    min-height: 60%;
     background-color: whitesmoke;
 }
 
@@ -187,7 +181,6 @@ nav {
 }
 
 .card-right-flex h1 {
-    font-family: 'Nunito';
     font-size: 20px;
     padding-bottom: 3%;
 }
@@ -360,7 +353,6 @@ nav {
 }
 
 #blog-date {
-    font-family: 'Nunito';
     color: #666;
 }
 
@@ -435,7 +427,6 @@ nav {
 .c-saying-heading {
     font-size: 28px;
     color: white;
-    font-family: 'Nunito';
     align-items: center;
     text-align: center;
     margin-bottom: 5vh;
@@ -444,7 +435,6 @@ nav {
 .c-saying-quote p {
     font-size: 16px;
     color: #666;
-    font-family: 'Nunito';
     align-items: center;
     text-align: center;
     margin-bottom: 5vh;
@@ -454,7 +444,6 @@ nav {
 #simple-line {
     font-size: 1px;
     color: #666;
-    font-family: 'Nunito';
     align-items: center;
     text-align: center;
     width: 30px;
@@ -471,7 +460,6 @@ nav {
 .c-saying-author p {
     font-size: 20px;
     color: #666;
-    font-family: 'Nunito';
     align-items: center;
     text-align: center;
 }
@@ -550,7 +538,6 @@ nav {
 
 .footer-heading {
     font-size: 23px;
-    font-family: 'Nunito';
     padding-bottom: 5px;
     color: rgb(0, 0, 0) !important;
 }
