@@ -275,7 +275,7 @@ nav {
 }
 
 .about-col-2 {
-    height: 35vh;
+    height: 42vh;
     flex-basis: 45%;
     flex-direction: column;
     display: flex;
@@ -690,7 +690,7 @@ input {
         padding-right: 65%;
     }
     .about-row-2 {
-        /* height: 130vh; */
+        height: 100vh;
         width: 100%;
         flex-direction: column;
         justify-content: flex-start;
@@ -796,7 +796,7 @@ input {
         padding-right: 60%;
     }
     .about-row-2 {
-        /* height: 130vh; */
+        height: 100vh;
         width: 100%;
         flex-direction: column;
         justify-content: flex-start;
